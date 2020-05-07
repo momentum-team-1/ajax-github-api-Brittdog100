@@ -1,0 +1,29 @@
+#biocard > div {
+    display: inline-block;
+    width: 25%;
+}
+
+.field {
+    margin-right: 8px;
+}
+.value {
+    color: grey;
+}
+
+#biocard > div > blockquote {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 64px;
+}
+
+img {
+    display: inline-block;
+    width: 20%;
+    border-radius: 100%;
+    transition: border-radius 2s ease-in 0.5s;
+}
+
+img:hover {
+    border-radius: 25%;
+    transition: border-radius 0.5s ease 0s;
+}
